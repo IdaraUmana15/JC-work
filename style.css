@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(147deg,#000,#1f1f1f 74%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+nav{
+margin-left: 68rem;
+color: white;
+text-decoration: none;
+}
+.icon img{
+    text-align: center;
+    margin-left: 10rem;
+}
+.bio h6{
+    font-size: 1rem;
+    text-align: center;
+}
+.bio .field{
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    margin-left: 13rem;
+}
+.bio p{
+    font-size: 14px;
+    text-align: center;
+}
+.lefty{
+    margin-top: 6rem;
+}
+.righty{
+margin-top: 2rem;
+}
+.skill-set{
+    background-color: rgba(44, 44, 44, 0.8);
+    margin: 40px 10px;
+    padding: 15px;
+    border-radius: 0 9px 9px 0;
+    border-left-color: rgb(255, 255, 255);
+border-left-style: solid;
+border-left-width: 2px;
+border-top-left-radius: 0px;
+font-size: 1rem;
+
+}
+.skill-set i{
+    margin-right: .3rem;
+    
+}
+
+
+.skill-set ul{
+    font-size: 13px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: 'poppins' ;
+    
+}
+.skill-set li{
+    text-align: left;
+
+}
+.skill-set u{
+    font-size: 12px;
+    font-weight: 400;
+    /* text-align: left; */
+    margin-left: 1rem;
+    font-family: 'poppins';
+}
+.top-circle{
+    width: 20px;
+    height: 20px;
+    background-color: #060606;
+    position: absolute;
+    border-radius: 50%;
+    right: 10px;
+}
+.bottom-circle{
+    bottom: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #060606;
+    position: absolute;
+    border-radius: 50%;
+    right: 10px;
+}
+
+.form-but{
+    background-color: #333!important;
+    border-color: #999!important;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 0.25rem;
+    width: 7rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    
+
+    
+}
+.form-control{
+    display: block;
+    width: 100%;
+    /* height: calc(1.5em + 0.75rem + 2px); */
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: left;
+    background-color: #333;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.contain{
+    width: 100%;
+    align-content: center;
+    margin-left: 18rem;
+    margin-top: 5rem;
+}
+.contain h4{
+    margin-left: 15rem;
+}
+.contain hr{
+    margin-left: 16rem;
+}
+.meta{
+    background-color: rgba(44,44,44,.8);
+    padding: 20px;
+    margin-top: 3rem!important;
+    border-radius: 0.25rem!important
+}
+.view-project-btn{
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-transform: capitalize;
+    background: #333!important;
+    border: none!important;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.prop{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 6rem;
+}
+.line{
+    margin-left: 31.5rem; 
+    background: #333;
+    overflow: visible;
+    color: #fff;
+    font-weight: 700; 
+    border-top-style: solid;
+     
+}
+.but button{
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px;
+    border: 2px solid #fff!important;
+    width: 7rem;
+    font-size: 14px;
+   
+}
+
+i{
+    margin-left: 1rem;
+}
+.meta h4{
+    font-size: 17px;
+    font-weight: 700;
+}
+.meta span{
+    color: #e5e3e3;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+footer ul{
+    display: flex;
+    text-align: center!important;
+}
+footer li{
+    text-align: center!important;
+    list-style: none;
+    padding-top: 2rem;
+   
+}
+.foot{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact{
+ text-align: center!important;
+}
+.foot hr{
+    text-align: center!important;
+}
+.scroll-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    font-size: 30px;
+    background: hsla(0,0%,100%,.7)!important;
+    padding: 0 10px;
+}
+.copyright{
+    text-align: center!important;
+    font-size: 12px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
