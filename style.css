@@ -9,10 +9,19 @@ body{
     background-repeat: no-repeat;
     color: white;
 }
-nav{
-margin-left: 68rem;
-color: white;
-text-decoration: none;
+.nav{
+    background-image: linear-gradient(147deg,#000,#1f1f1f 74%);
+color: white!important;
+/* text-decoration: none; */
+}
+nav li{
+    color: white!important;
+    text-decoration: none;
+  
+}
+nav ul{
+ margin-left: 67rem;
+ font-family: "poppins"; 
 }
 .icon img{
     text-align: center;
@@ -121,18 +130,7 @@ font-size: 1rem;
     border-radius: 0.25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-.contain{
-    width: 100%;
-    align-content: center;
-    margin-left: 18rem;
-    margin-top: 5rem;
-}
-.contain h4{
-    margin-left: 15rem;
-}
-.contain hr{
-    margin-left: 16rem;
-}
+
 .meta{
     background-color: rgba(44,44,44,.8);
     padding: 20px;
@@ -204,12 +202,6 @@ footer li{
     margin-left: auto;
 }
 
-.contact{
- text-align: center!important;
-}
-.foot hr{
-    text-align: center!important;
-}
 .scroll-to-top{
     position: fixed;
     bottom: 20px;
